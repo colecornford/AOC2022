@@ -15,7 +15,7 @@ func main() {
 }
 
 func getData() (lines []string) {
-	content, err := ioutil.ReadFile("input.txt")
+	content, err := ioutil.ReadFile("testinput.txt")
 	if err != nil {
 		panic(err)
 	}
